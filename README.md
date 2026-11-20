@@ -78,3 +78,23 @@ git push -u origin main
 git push -u origin feature-cart-validation
 ```
 If your branch is named `master`, run `git branch -M main`. Capture screenshots of the running app, repository files, meaningful commits and feature-branch merge. Final PDF name: `RegisterNumber_Assignment2_MiniProject.pdf`.
+
+## Project Structure
+
+- `pom.xml` – Maven configuration and dependencies.
+- `src/main/java/com/quickbite/` – Java application source code.
+- `screenshots/` – Application screenshots and testing evidence.
+- `README.md` – Project documentation.
+
+## Version Control
+
+This project is maintained using Git and GitHub.
+
+- `main` – Main project branch.
+- `feature/order-validation` – Development branch for project changes.
+
+Changes are committed to the development branch and merged into the main branch after review.
+
+## Conclusion
+
+QuickBite provides a simple Java-based food ordering system with menu browsing, cart management, order validation and SQLite database storage.
